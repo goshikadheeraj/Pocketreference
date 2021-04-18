@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Heading{
+    padding-block: 1mm;
+    text-align: center;
+    background-color: rgb(255, 183, 0);
+    color: black;
+    font-family: monospace;
+}
+.Blocks{
+    display: inline-block;
+    margin-bottom: 60px;
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 20%;
+    background-color: #a799b7;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+}
+.Blocks:hover{
+    box-shadow: 5px 5px 10px greenyellow;
+}
+.Image img{
+    border-radius: 10px;
+    width: 100%;
+}
+.Description{
+    padding: 5px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    border: 1px solid #3498db;
+    background:rgb(255, 255, 255);
+    border-radius: 10%;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: monospace;
+    cursor: pointer;
+    margin: 10px;
+}
+button:hover{
+    transition: 0.5s;
+    background: rgb(0, 255, 42);
+}
